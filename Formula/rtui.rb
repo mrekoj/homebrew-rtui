@@ -1,14 +1,14 @@
 class Rtui < Formula
   desc "Minimal TUI dashboard to monitor and manage multiple git repos"
   homepage "https://github.com/mrekoj/rtui"
-  version "0.1.2"
+  version "0.1.3"
 
   if Hardware::CPU.arm?
-    url "https://github.com/mrekoj/rtui/releases/download/v0.1.2/rtui_darwin_arm64.tar.gz"
-    sha256 "fe072a964210b3f28f9e1fa99c25e56f533ee0f809b374f471ad1e529db24cd0"
+    url "https://github.com/mrekoj/rtui/releases/download/v0.1.3/rtui_darwin_arm64.tar.gz"
+    sha256 "6a3e59c8b32700a7e38c35e09b1bc12361e3441091d76937185348dd21bd310c"
   else
-    url "https://github.com/mrekoj/rtui/releases/download/v0.1.2/rtui_darwin_amd64.tar.gz"
-    sha256 "985310eef69a3c347dd30ad34604960496b58ad390fdd49b62e8a7d1e7d6244b"
+    url "https://github.com/mrekoj/rtui/releases/download/v0.1.3/rtui_darwin_amd64.tar.gz"
+    sha256 "81580e5711cb5290d64168131ee0e68e5374778ffb94cd3a03e54e5c05e4672e"
   end
 
   def install
